@@ -1,0 +1,24 @@
+{
+  "name": "jkallunki-net",
+  "description": "JKallunki",
+  "private": true,
+  "scripts": {
+    "start": "LOGGY_STACKS=true brunch watch --server",
+    "build": "brunch build --production",
+    "stylelint": "stylelint '**/*.scss'; exit 0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-eslint": "^8.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "brunch": "^2.10.12",
+    "prettier-eslint": "^8.2.2",
+    "sass-brunch": "^2.10.4",
+    "stylelint-brunch": "^0.1.0"
+  },
+  "dependencies": {
+    "normalize": "^0.3.1",
+    "pleeease-brunch": "^3.0.0"
+  }
+}
