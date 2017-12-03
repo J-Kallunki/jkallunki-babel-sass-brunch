@@ -16,7 +16,8 @@
     "jest": "^21.2.1",
     "prettier-eslint": "^8.2.2",
     "sass-brunch": "^2.10.4",
-    "stylelint-brunch": "^0.1.0"
+    "stylelint-brunch": "^0.1.0",
+    "stylelint-scss": "^2.2.0"
   },
   "dependencies": {
     "babel-preset-env": "^1.6.1",
