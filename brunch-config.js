@@ -10,10 +10,10 @@ exports.config = {
   files: {
     javascripts: {
       joinTo: {
-        // all code from 'vendor/'
-        "js/vendor.js": /^vendor/,
         // all code from 'src/'
-        "js/main.js": /^src/
+        "js/main.js": /^src/,
+        // all code from 'vendor/' and imported node_modules
+        "js/vendor.js": /^(vendor\/|node_modules\/)/
       }
     },
     stylesheets: { joinTo: "css/styles.css" }
