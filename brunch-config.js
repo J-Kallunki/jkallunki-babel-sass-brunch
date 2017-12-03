@@ -1,5 +1,8 @@
 exports.config = {
-  conventions: { assets: /src\/assets\// },
+  conventions: {
+    assets: /src\/assets\//,
+    ignored: /\.test\.\w+$/
+  },
   sourceMaps: true,
 
   paths: {
