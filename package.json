@@ -14,6 +14,7 @@
     "babel-eslint": "^8.0.3",
     "brunch": "^2.10.12",
     "jest": "^21.2.1",
+    "node-sass": "^4.7.2",
     "prettier-eslint": "^8.2.2",
     "sass-brunch": "^2.10.4",
     "stylelint-brunch": "^0.1.0",
