@@ -15,6 +15,7 @@
     "brunch": "^2.10.12",
     "jest": "^21.2.1",
     "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
     "prettier-eslint": "^8.2.2",
     "sass-brunch": "^2.10.4",
     "stylelint-brunch": "^0.1.0",
@@ -22,7 +23,6 @@
   },
   "dependencies": {
     "babel-preset-env": "^1.6.1",
-    "normalize": "^0.3.1",
     "pleeease-brunch": "^3.0.0"
   }
 }
